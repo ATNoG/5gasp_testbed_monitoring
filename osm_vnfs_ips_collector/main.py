@@ -50,7 +50,7 @@ while True:
         response.raise_for_status()
         logging.info(f"Prometheus API called with success. Updated the following targets: {prometheus_targets}")
     except Exception as e:
-        raise Exceptions.CouldNotUpdatePrometheusTargets(str(e))
+        print("Exception:", str(e))
 
     vdus_ips = new_vdus_ips
 
