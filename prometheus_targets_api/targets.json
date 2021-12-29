@@ -1,1 +1,1 @@
-[{"labels": {"job": "5gasp_testbed_monitoring", "env": "prod"}, "targets": ["10.0.12.234:9100"]}]
+[{"labels": {"job": "5gasp_testbed_monitoring", "env": "prod"}, "targets": ["10.0.13.159:9100", "10.0.13.130:9100"]}]
