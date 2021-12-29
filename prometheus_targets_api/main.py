@@ -6,6 +6,7 @@ import aux.utils as Utils
 import aux.prometheus as Prometheus
 from http import HTTPStatus
 import schemas as Schemas
+
 # Logger
 logging.basicConfig(
     format="%(module)-15s:%(levelname)-10s| %(message)s",
